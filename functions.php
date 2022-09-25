@@ -47,9 +47,9 @@ function display_casino_function() {
 	));?>
 
 	<div class="main-container">
-		<h1 class="casinos-title">Lessons</h1>
+		<h1 class="casinos-title">Cassinos</h1>
 
-		<div class="choose-box">Choose a lesson </div>
+		<div class="choose-box">Choose a casino </div>
 
 		<div class="casino-box-container">
 	
