@@ -6,7 +6,7 @@ function loading_files() {
   wp_enqueue_style('custom_post_type_css', get_theme_file_uri('/style.css'));
 }
 
-add_action('wp_enqueue_scripts', 'loading_files);
+add_action('wp_enqueue_scripts', 'loading_files');
 
 function general_features() {
   add_theme_support('title-tag');
@@ -37,8 +37,6 @@ add_action('after_setup_theme', 'general_features');
 
 add_action('init', 'custom_post_type');
 
-
-
 function display_casino_function() {
 
 	$showC = new WP_Query(array(
@@ -47,7 +45,7 @@ function display_casino_function() {
 	));?>
 
 	<div class="main-container">
-		<h1 class="casinos-title">Cassinos</h1>
+		<h1 class="casinos-title">Casinos</h1>
 
 		<div class="choose-box">Choose a casino </div>
 

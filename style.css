@@ -65,3 +65,15 @@ h1.casinos-title {
         margin: 0 30px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .casino-box-container {
+          grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .casino-box-container {
+          grid-template-columns: auto;
+    }
+}
