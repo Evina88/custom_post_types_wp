@@ -15,6 +15,6 @@ h1 size: 28px
 
 «Choose one casino» size: 20px, width:200px at the centre of the page
 
-casinos width: responsive
+casinos width: Responsive
 
-Whole page:Responsive
+Whole page: Responsive
