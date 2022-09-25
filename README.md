@@ -1,7 +1,7 @@
 # custom_post_types_wp
 
 Using local and a custom wp theme, I created a shortcode to display the casinos (custom post type).
-Both created also at functions.php
+Both created at functions.php
 
 Specifications:
 
